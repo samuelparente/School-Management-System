@@ -1,0 +1,1 @@
+ao criar uma conta de instituição, gera as tabelas relativas a essa instituição

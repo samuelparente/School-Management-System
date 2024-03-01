@@ -1,0 +1,23 @@
+
+				$hashPassword=password_hash($password,PASSWORD_DEFAULT);
+				$dadosDb = "INSERT INTO testefuncionarios (foto,nome,apelido,datanascimento,cargo,morada,codigopostal,cidade,pais,telefone1,telefone2,email,nivelacesso,notas,utilizador,password)
+				VALUES ('$foto','$nome','$apelido','$dataNasc','$cargo','$morada','$cp','$cidade','$pais','$contacto1','$contacto2','$email','$nivelAcesso','$notas','$utilizador','$hashPassword')";
+
+				$queryDb=mysqli_query($ligacao,$dadosDb);
+
+					if (!$queryDb) {
+					  $feedback="<div class=\"alert alert-danger alert-dismissible fade show\" role=\"alert\">
+					  Não foi possível inserir novo funcionário. Contacte o administrador.
+					  <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>
+					</div>";
+										}
+					else{
+						$feedback="<div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
+						
+							<i class=\"bi bi-check-circle-fill\"></i>
+						
+						  Funcionário registado com sucesso!
+						  <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>
+						</div>";	
+					}
+				

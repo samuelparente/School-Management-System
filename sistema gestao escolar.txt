@@ -1,0 +1,47 @@
+tabelas:
+
+instituição
+    subtabelas: alunos,enc.ed,funcionarios,sala,
+
+
+
+criação de conta da instituiçao(login,criar conta,recuperar conta/Nome morada nif contactos logotipo)-nome tabela=nome instituição
+
+CONTA DA INSTITTUIÇÃO:
+|
+|
+|---Encarregado educação (apenas acede a info do seu educando,noticias,info gerais-ementas,eventos)
+|
+|---Administrador(cria contas funcionarios/gere sistema/gera relatorios)
+|
+|---	Funcionários:
+|	|
+|	|
+|	|---categorias
+|	|		|
+|	|		|------Administrador/professor/educador/auxiliar/administrativo/outro
+|	|
+|	|---foto/nome/data nascimento/morada/contactos/data admissão/notas
+|
+|---	Alunos:
+|	|
+|	|---Foto/nome/data nascimento/Turma/sala/pagamentos/notas/Feedback do educador
+|	|
+|	|---Enc educação:
+|	|		|
+|	|		|----foto/-nome/morada/data nascimento/contactos/notas
+|	|
+|	|---Outros responsáveis:
+|			|
+|			|------foto/nome/morada/data nascimento/contactos/notas/Autorizado (SIM/NAO)
+|
+|
+|
+|---Sala(educador)
+|
+|
+|---Relatorios(pagamentos, alunos,funcionarios)
+|
+|
+|---envia sms com feedback do aluno
+			

@@ -1,0 +1,29 @@
+
+				<!--formulario registar direita-->
+				<div class="col-md-5" style="width: 25rem">
+					<div class="card bg-light" >
+					<div class="card-body">
+						<h5 class="card-title"><b>Registar</b></h5>
+						<form id="registerForm" >
+							<div class="mb-3" align="left">
+								<label for="registaUtilizador" class="form-label">Utilizador</label>
+								<input type="text" class="form-control" id="novoUtilizador" aria-describedby="novoUtilizadorHelp">
+								<div id="novoUtilizadorHelp" class="form-text"></div>
+							</div>
+							<div class="mb-3" align="left">
+								<label for="registaEmail" class="form-label">E-mail</label>
+								<input type="email" class="form-control" id="novoEmail" aria-describedby="novoEmailHelp">
+								<div id="novoEmailHelp" class="form-text">O seu endereço de e-mail não será compartilhado.</div>
+							</div>
+							<div class="mb-3" align="left">
+								<label for="novoPassword" class="form-label">Password</label>
+								<input type="password" class="form-control" id="novoPassword">
+							</div>
+							<div class="d-grid gap-2">
+							<button type="submit" class="btn btn-primary">Registar</button>
+							</div>
+						</form>
+					</div>
+					</div>
+				</div>
+			</div>

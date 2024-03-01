@@ -1,0 +1,10 @@
+
+<button type=\"button\" 
+									class=\"btn btn-sm btn-danger\" 
+									data-bs-toggle=\"modal\" 
+									data-bs-target=\"#confirmApaga\"
+									id=".$aux["id"]."
+									 >
+
+
+<button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#confirmApaga" id="$aux["id"]" data-id="<?php echo $aux["id"];?>">

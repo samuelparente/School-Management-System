@@ -1,0 +1,53 @@
+<div class="container-fluid ">
+	<div class="col-md-12 text-center">
+	<img src="/img/logo.png" alt="" width="250" class="img-fluid">
+	</div>
+	<div class="row justify-content-center align-items-center" style="height: 100px;">
+	<div class="col-4">
+
+	<div class="card" style="width: 20rem">
+	<div class="card-body bg-light">
+	<h5 class="card-title" >Login</h5>
+	<form id="loginForm" >
+	<div class="mb-3" align="left">
+	<label for="entradaUtilizador" class="form-label">Utilizador</label>
+	<input type="text" class="form-control" id="entradaUtilizador" aria-describedby="utilizadorHelp">
+	<div id="utilizadorHelp" class="form-text">We'll never share your email with anyone else.</div>
+	</div>
+	<div class="mb-3" align="left">
+	<label for="entradaPassword" class="form-label">Password</label>
+	<input type="password" class="form-control" id="entradaPassword">
+	</div>
+	<button type="submit" class="btn btn-primary">Entrar</button>
+	</form>
+	</div>
+	</div>
+
+	</div>
+
+	<div class="col-6">
+	<div class="card" style="width: 30rem">
+	<div class="card-body">
+	<h5 class="card-title">Registar</h5>
+	<form>
+	<div class="mb-3" align="left">
+	<label for="novoUtilizador" class="form-label">Utilizador</label>
+	<input type="text" class="form-control" id="novoUtilizador" aria-describedby="novoUtilizadorHelp">
+	<div id="novoUtilizadorHelp" class="form-text">We'll never share your email with anyone else.</div>
+	</div>
+	<div class="mb-3" align="left">
+	<label for="novoEmail" class="form-label">E-mail</label>
+	<input type="e-mail" class="form-control" id="novoEmail" aria-describedby="novoEmailHelp">
+	<div id="novoEmailHelp" class="form-text">We'll never share your email with anyone else.</div>
+	</div>
+	<div class="mb-3" align="left">
+	<label for="novoPassword" class="form-label">Password</label>
+	<input type="password" class="form-control" id="novoPassword">
+	</div>
+	<button type="submit" class="btn btn-primary">Registar</button>
+	</form>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
